@@ -359,7 +359,7 @@ public class Aplication extends JFrame implements ActionListener{
 				}
 		}
                 }
-                else{JOptionPane.showMessageDialog(null,"vous avez sélectionné des faux fichiers","Attention",0);}
+                else{JOptionPane.showMessageDialog(null,"vous avez selectionne des faux fichiers","Attention",0);}
 		}
 		}
 		
@@ -378,7 +378,7 @@ public class Aplication extends JFrame implements ActionListener{
 				int taile1= tab.getRowCount();
 				int taile2= tab2.getRowCount();
 				if ((taile1==0)&&(taile2==0)){
-					JOptionPane.showMessageDialog(null,"aucun fichier à Synchroniser ");	
+					JOptionPane.showMessageDialog(null,"aucun fichier Synchroniser ");	
 					}
 			   	else{
 			   		if(gauche_droit.isEnabled()){
@@ -469,7 +469,7 @@ public class Aplication extends JFrame implements ActionListener{
 						JOptionPane.showMessageDialog(null,"Synchronisation est terminer avec success ","Information",1);
 				        }
 				        else{
-				        	JOptionPane.showMessageDialog(null,"la synchronisation est Non implémenté","Information",1);	
+				        	JOptionPane.showMessageDialog(null,"la synchronisation est Non implemente","Information",1);	
 				        }
 						
 						syn=false;
@@ -500,7 +500,7 @@ public class Aplication extends JFrame implements ActionListener{
 		panel.add(button_3);		
 		
 		JButton button = new JButton("");
-		//paramétre de comparé button action
+		//parametre de compare button action
 		button.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 			new cop_set().setVisible(true);	

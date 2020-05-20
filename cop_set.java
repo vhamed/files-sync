@@ -60,18 +60,18 @@ public class cop_set extends JDialog {
 		contentPanel.add(size);
 		
 		JButton btnNewButton = new JButton("Date du fichier");
-		btnNewButton.setToolTipText("reconna\u00EEtre les fichiers identiques \u00E0 l'aide leur date");
+		btnNewButton.setToolTipText("reconnaitre les fichiers identiques \u00E0 l'aide leur date");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				if(!chang){
 					size.setEnabled(true);
 					date.setEnabled(false);
-					tex.setText("Reconnaître les fichiers identiques à l'aide de leur taille.");
+					tex.setText("Reconnatre les fichiers identiques a l'aide de leur taille.");
 				}
 				else{
 					size.setEnabled(false);
 					date.setEnabled(true);
-					tex.setText("Reconnaître les fichiers identiques à l'aide de leur date.");
+					tex.setText("Reconnatre les fichiers identiques a l'aide de leur date.");
 	
 				}
 				chang=!chang;
@@ -88,12 +88,12 @@ public class cop_set extends JDialog {
 				if(!chang){
 					size.setEnabled(true);
 					date.setEnabled(false);
-					tex.setText("Reconnaître les fichiers identiques à l'aide de leur taille.");
+					tex.setText("Reconnaitre les fichiers identiques a l'aide de leur taille.");
 				}
 				else{
 					size.setEnabled(false);
 					date.setEnabled(true);
-					tex.setText("Reconnaître les fichiers identiques à l'aide de leur date.");
+					tex.setText("Reconnaitre les fichiers identiques a l'aide de leur date.");
 				}
 				chang=!chang;
 			}

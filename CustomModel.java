@@ -26,7 +26,7 @@ public class CustomModel {
 					model.addRow(rows);
 				}
 				else{ //cette rep est existe deja dans le 2eme rep
-					LinkedList<File> fs=new LinkedList<File>();//mettre le contenu de répertoire dans une list
+					LinkedList<File> fs=new LinkedList<File>();//mettre le contenu de repertoire dans une list
 					if (f.listFiles()!=null) {
 						for (File f1 : f.listFiles()) {								
 						fs.add(f1);							
@@ -58,7 +58,7 @@ public class CustomModel {
 		return model;
 	}
 	
-	//vérifier si le repertoire est existe ou pas
+	//verifier si le repertoire est existe ou pas
 	public static boolean Belong(File file1,File file2 ){
 		boolean in = false;
 		for(File f : file2.listFiles()){
@@ -81,7 +81,7 @@ public class CustomModel {
 		}
 		return in;
 	}
-	//vérifier si la date de folder est changé ou non et si le fichier est existe ou pas
+	//verifier si la date de folder est change ou non et si le fichier est existe ou pas
 	public static boolean modif(File f,File file ){
 		boolean val= false;
 			for(File f1 : file.listFiles()){
@@ -117,7 +117,7 @@ public class CustomModel {
 	
 	
 	
-	//vérifier si la taille de folder est changé ou non et si le fichier est existe ou pas
+	//verifier si la taille de folder est change ou non et si le fichier est existe ou pas
 	public static boolean modif2(File f,File file ){
 		boolean val= false;
 			for(File f1 : file.listFiles()){

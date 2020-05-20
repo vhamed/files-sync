@@ -95,7 +95,7 @@ public class Sync {
    		}
 	}
 	
-	//suprimé un repertoire
+	//suprime un repertoire
 	public static void del_rep(File f) {
 		
 		if(f.isDirectory()){
